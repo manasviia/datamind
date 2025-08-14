@@ -10,7 +10,7 @@
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 **Try it now:** (https://datamind-manasvi.streamlit.app))
 
@@ -21,29 +21,29 @@
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-### ✅ **Multi-Method Validation**
+### **Multi-Method Validation**
 Every analysis result is cross-validated using alternate computation methods. Trust scores indicate reliability.
 
-### 🔒 **Local Processing** 
+### **Local Processing** 
 No API calls, no data leaves your environment. Built for enterprise security and privacy.
 
-### 🧠 **Business Intelligence**
+### **Business Intelligence**
 Understands business context - maps "revenue" to "deal_value", handles SaaS metrics, detects patterns.
 
-### 📊 **Interactive Visualizations**
+### **Interactive Visualizations**
 Auto-generates appropriate charts with Plotly. Supports bar, line, pie, and scatter plots.
 
-### 📄 **Professional Reporting**
+### **Professional Reporting**
 Export comprehensive PDF reports with executive summaries and technical details.
 
-### ⚡ **Natural Language Interface**
+### **Natural Language Interface**
 Ask questions in plain English - no SQL or coding required.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Question → Parser → Mapper → Planner → CodeGen → Validator → Results
@@ -62,7 +62,7 @@ Question → Parser → Mapper → Planner → CodeGen → Validator → Results
 
 ---
 
-## 🔧 Technical Details
+## Technical Details
 
 ### **Validation Pipeline**
 ```python
@@ -88,7 +88,7 @@ trust_score = 100 if results_match(result1, result2) else calculate_confidence()
 
 ---
 
-## 📈 Demo Questions
+## Demo Questions
 
 Try these with the sample data:
 
@@ -109,7 +109,7 @@ Try these with the sample data:
 
 ---
 
-## 🛠️ Local Installation
+## Local Installation
 
 ### **Prerequisites**
 - Python 3.9+
@@ -147,7 +147,7 @@ docker run -p 8501:8501 datamind
 
 ---
 
-## 📊 Supported Data Formats
+## Supported Data Formats
 
 | Format | Max Size | Notes |
 |--------|----------|-------|
@@ -163,7 +163,7 @@ docker run -p 8501:8501 datamind
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 ### **Sales Teams**
 - Rep performance analysis
@@ -191,7 +191,7 @@ docker run -p 8501:8501 datamind
 
 ---
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 ### **Data Privacy**
 - **Local processing:** Data never leaves your environment
@@ -223,23 +223,7 @@ docker run -p 8501:8501 datamind
 
 ---
 
-## 🚀 Deployment Options
-
-### **Cloud Platforms**
-- **Streamlit Cloud:** Free, automatic deployment
-- **Heroku:** Professional hosting with custom domains
-- **Railway:** Fast deployment with GitHub integration
-- **AWS/GCP:** Enterprise-scale hosting
-
-### **Enterprise Deployment**
-- **Docker containers:** Kubernetes-ready
-- **On-premise:** Air-gapped environments
-- **Database integration:** PostgreSQL, Snowflake, BigQuery
-- **SSO integration:** SAML, OAuth, LDAP
-
----
-
-## 🛡️ Trust & Validation
+## Trust & Validation
 
 ### **Validation Methods**
 | Analysis Type | Primary Method | Validation Method | Typical Trust Score |
@@ -281,7 +265,7 @@ mypy datamind/
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **spaCy** for natural language processing
 - **Sentence Transformers** for semantic similarity
