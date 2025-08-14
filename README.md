@@ -1,10 +1,4 @@
 # DataMind 🧠
-### AI Data Analyst with Validation Pipeline
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://your-demo-url.streamlit.app)
-[![Python](https://img.shields.io/badge/Python-3.9+-blue)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 **Turn natural language questions into validated data insights - built for enterprise reliability.**
 
