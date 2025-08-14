@@ -8,7 +8,6 @@ from pathlib import Path
 import os
 from datetime import datetime
 
-# Import your existing modules
 from parser import QuestionParser
 from mapper import ColumnMapper
 from planner import ExecutionPlanner
@@ -18,7 +17,6 @@ from viz import ChartGenerator
 from report import PDFReporter
 from utils import load_sample_data, infer_schema
 
-# Try to import Plotly
 try:
     import plotly.express as px
     import plotly.graph_objects as go
@@ -34,7 +32,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# FIXED CSS - Use st.html() instead of st.markdown() with unsafe_allow_html
 st.html("""
 <style>
     .main {
